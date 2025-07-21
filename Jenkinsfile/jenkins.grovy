@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git url: 'https://github.com/vinaykhatnani/Data-driven-pipeline.git', branch: 'main'
+        git url: 'https://github.com/lokesh-dadhich/Data_Driven_Pipeline/tree/main', branch: 'main'
       }
     }
 
